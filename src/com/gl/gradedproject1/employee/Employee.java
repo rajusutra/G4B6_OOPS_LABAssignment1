@@ -11,7 +11,9 @@ public class Employee {
 
 	public Employee(String firstName, String lastName, String department) {
 		super();
-
+		this.setDepartment(department);
+		this.setFirstName(firstName);
+		this.setLastName(lastName);
 	}
 
 
